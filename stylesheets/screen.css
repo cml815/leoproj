@@ -1,0 +1,81 @@
+/*
+Syntax error: File to import not found or unreadable: comapss/css3.
+              Load paths:
+                /Users/carolineleopold/Sites/leoproj/sass
+                /Users/carolineleopold/.gem/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                /Users/carolineleopold/.gem/gems/compass-0.12.2/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 7 of /Users/carolineleopold/Sites/leoproj/sass/screen.scss
+
+Backtrace:
+/Users/carolineleopold/Sites/leoproj/sass/screen.scss:7
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/import_node.rb:67:in `import'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/import_node.rb:37:in `css_import?'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/tree/root_node.rb:20:in `render'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/engine.rb:315:in `_render'
+/Users/carolineleopold/.gem/gems/sass-3.2.9/lib/sass/../sass/engine.rb:262:in `render'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:36:in `to_proc'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/path.rb:31:in `create'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/state/directory.rb:26:in `created'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `each'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `created'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/state/directory.rb:17:in `refresh'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:30:in `temporary_multipath_handler'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:27:in `each'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:27:in `temporary_multipath_handler'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:17:in `run'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:16:in `each'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:16:in `run'
+/Users/carolineleopold/.gem/gems/rb-fsevent-0.9.3/lib/rb-fsevent/fsevent.rb:43:in `call'
+/Users/carolineleopold/.gem/gems/rb-fsevent-0.9.3/lib/rb-fsevent/fsevent.rb:43:in `run'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:20:in `run'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+/Users/carolineleopold/.gem/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/bin/compass:30
+/Users/carolineleopold/.gem/gems/compass-0.12.2/bin/compass:44:in `call'
+/Users/carolineleopold/.gem/gems/compass-0.12.2/bin/compass:44
+/Users/carolineleopold/.gem/bin/compass:23:in `load'
+/Users/carolineleopold/.gem/bin/compass:23
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: comapss/css3.\A               Load paths:\A                 /Users/carolineleopold/Sites/leoproj/sass\A                 /Users/carolineleopold/.gem/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/carolineleopold/.gem/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 7 of /Users/carolineleopold/Sites/leoproj/sass/screen.scss"; }
